@@ -29,4 +29,23 @@
 Donde C es el capital inicial, x es la tasa de interés y n es el número de años a calcular.
 
 8. Escribir una función que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es:
-    F=9/5C+32		 
+    F=9/5C+32
+
+9. Escribir un programa que utilice la función anterior para generar una tabla de conversión de temperaturas, desde 0 °F hasta 120 °F, de 10 en 10.
+
+10. Escribir un programa que imprima todos los números pares entre dos números que se le pidan al usuario.
+
+11. Escribir un programa que le pregunte al usuario un número n e imprima los primeros n números triangulares, junto con su índice. Los números triangulares se obtienen mediante la suma de los números naturales desde 1 hasta n. Es decir, si se piden los primeros 5 números triangulares, el programa debe imprimir:
+1 - 1
+2 - 3
+3 - 6
+4 - 10
+5 - 15
+
+Nota: hacerlo usando y sin usar la ecuación ![](https://i.imgur.com/A9zvytX.png) ¿Cuál realiza más operaciones?
+
+12. Escribir un programa que tome una cantidad n de valores ingresados por el usuario, a cada uno le calcule el factorial (lo realizado en el ejercicio 1.4) e imprima el resultado junto con el número de orden correspondiente. 
+
+13. Escribir un programa que imprima por pantalla todas las fichas de dominó, de una por línea y sin repetir.
+
+14. Modificar el programa anterior para que pueda generar fichas de un juego quo que puede tener números de 0 a n
