@@ -3,10 +3,10 @@
 1. Enunciado: a partir de dos valores enteros A y B, informar la suma, la diferencia (A menos B), y el producto.
 
     Estrategia:
-  - Solicitar e ingresar datos por teclado
-  - Calcular suma e informar por monitor
-  - Calcular diferencia e informar por monitor
-  - Calcular producto e informar por monitor
+    - Solicitar e ingresar datos por teclado
+    - Calcular suma e informar por monitor
+    - Calcular diferencia e informar por monitor
+    - Calcular producto e informar por monitor
 
 2. Dado el siguiente enunciado y su representación gráfica especifique los datos de entrada, de salida, estrategia, seguimiento y codificación. 
 
