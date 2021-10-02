@@ -23,7 +23,9 @@
 6. Escribir un programa que le pida una palabra al usuario, para luego imprimirla 1000 veces, en una única línea, con espacios intermedios. Ayuda: Investigar acerca del parámetro end de la función print
 
 7. Escribir un programa que le pregunte al usuario una cantidad de pesos, una tasa de interés y un número de años y muestre como resultado el monto final a obtener. La fórmula a utilizar es:
+
 ![](https://i.imgur.com/VKdZ5XP.png)
+
 Donde C es el capital inicial, x es la tasa de interés y n es el número de años a calcular.
 
 8. Escribir una función que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es:
