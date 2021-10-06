@@ -42,4 +42,4 @@ while numero:
     contador_multiplos_3_5 = contador_multiplos_3_5 + 1
 
 # Muestro los resultados de los contadores por pantalla
-print("En la serie de numeros hay {0} multiplos de 3\nEn la serie de numeros hay {1} multiplos de 5\nEn la serie de numeros hay {2} multiplos de 3 y de 5".format(contador_multiplos_3,contador_multiplos_5,contador_multiplos_3_5)) 
+print("En la serie de numeros hay {0} multiplos de 3\nEn la serie de numeros hay {1} multiplos de 5\nEn la serie de numeros hay {2} multiplos de 3 y de 5".format(contador_multiplos_3,contador_multiplos_5,contador_multiplos_3_5))
