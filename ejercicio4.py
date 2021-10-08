@@ -1,5 +1,3 @@
-
-
 print("Ingrese el numerador y denominador para obtener todos las simplificaciones posibles")
 
 p= int(input("Ingrese el numerador de la fracción: "))
