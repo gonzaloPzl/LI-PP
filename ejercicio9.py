@@ -37,3 +37,26 @@ def sumar_hora(hora, tiempo):
   print("La hora generada por la suma de {0} y {1} es {2}:{3}:{4}".format(hora, tiempo, hora_suma,minutos_suma,segundos_suma))
 
 sumar_hora(hora,tiempo)
+
+
+# fecha="19991226"
+
+# annio=""
+# mes=""
+# dia=""
+
+# count=0
+
+# for digito in fecha:
+#   if count < 4:
+#     annio = annio + digito
+  
+#   elif count < 6:
+#     mes = mes + digito
+  
+#   elif count < 8:
+#     dia = dia + digito
+  
+#   count = count + 1
+
+# print("El dia es {0}, el mes {1} y el año {2}".format(dia,mes,annio))
