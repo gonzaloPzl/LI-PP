@@ -8,6 +8,7 @@ Guía 1  | Aprobado
 Guía 2  | Aprobado
 Guía 3  | Aprobado
 Guía 4  | Aprobado
+Guía 5  | Aprobado
 
 Las guias se encuentran en las diferentes **ramas** del repositorio
 
