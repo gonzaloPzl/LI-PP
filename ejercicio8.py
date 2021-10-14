@@ -1,29 +1,60 @@
-fecha = input("Ingrese la fecha en formato AAAAMMDD: ")
+fecha_teclado = input("Ingrese la fecha: ")
+dias_a_sumar = int(input("Ingresar los dias a sumar: "))
 
-dias_a_sumar = int(input("Ingrese el la cantidad de dias para sumar a la fecha: "))
 
-while not fecha.isdigit():
-  print("La fecha ingresada tiene caracteres que no son digitos, ingrese una fecha con el formato AAAAMMDD")
-  fecha =input("Ingrese una fecha con numeros en formato AAAAMMDD:")
+def get_annio(fecha):
+  annio = ""
+  count=0
+
+  for digito in fecha:
+    if count < 4:
+      annio = annio + digito
+    count = count + 1
+
+  return int(annio)
+
+def get_mes(fecha):
+  mes = ""
+  count = 0
+  for digito in fecha:
+    if count >= 4 and count < 6:
+      mes = mes + digito
+    count = count + 1
+  return int(mes)
+  
+
+
+def get_dia(fecha):
+  dia = ""
+  count = 0
+  for digito in fecha:
+    if count >= 6 and count < 8:
+      dia = dia + digito
+    count = count + 1
+  return int(dia)
+
+print(get_annio(fecha_teclado))
+print(get_mes(fecha_teclado))
+print(get_dia(fecha_teclado))
+
+
 
 def get_dia_del_mes(mes):
   if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
     return 31
+  elif mes == 2:
+    return 28
   elif mes == 4 or mes == 6 or mes == 9 or mes == 11:
     return 30
+
+def rutina(annio_fecha, mes_fecha, dia_fecha, dias_a_sumar): #rutina = fecha_nueva
   
-
-def sumar_dias(fecha,dias):
-  annio_fecha = int(fecha[0:4])
-  mes_fecha = int(fecha[4:6])
-  dia_fecha = int(fecha[6:8])
-
-
-  for i in range(dias):
+  for i in range(dias_a_sumar):
     # Primero le sumo 1 por cada ciclo que tenga el for
     dia_fecha = dia_fecha + 1
     # Consulto si el mes tiene 30, 30 o 28/29 días
     dias_del_mes= get_dia_del_mes(mes_fecha)
+    
     if dias_del_mes == 30:
       # Si el mes tiene 30 días y ya se paso al 3 se suma un mes mas y se resetean los días
       if dia_fecha > 30:
@@ -38,7 +69,10 @@ def sumar_dias(fecha,dias):
     if mes_fecha > 12:
       annio_fecha = annio_fecha + 1
       mes_fecha = 1
-  
-  print("La fecha obtenida de la suma de {0} días es {1}/{2}/{3}".format(dias_a_sumar,dia_fecha,mes_fecha,annio_fecha))
 
-sumar_dias(fecha,dias_a_sumar)
+
+  rutina = "{0}/{1}/{2}".format(annio_fecha, mes_fecha, dia_fecha)
+  print("{0}/{1}/{2}".format(annio_fecha, mes_fecha, dia_fecha))
+  return rutina
+
+rutina(get_annio(fecha_teclado),get_mes(fecha_teclado),get_dia(fecha_teclado), dias_a_sumar)
