@@ -10,9 +10,9 @@ cant_columnas = 5
 
 count=0
 
-while len(matriz) < cant_filas:
+while len(matriz) < cant_columnas:
   sub_matriz = []
-  for i in range(cant_columnas):
+  for i in range(cant_filas):
     if i == count:
       sub_matriz.append(1)
     else:

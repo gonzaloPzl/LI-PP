@@ -46,7 +46,7 @@ kms: Tabla para guardar los kilómetros que realizan cada día de la semana.
 Se quiere generar una nueva lista (“total_kms”) con los kilómetros totales que realza cada conductor.
 Al finalizar se muestra la lista con los nombres de conductores y los kilómetros que ha realizado.
 
-14 crear un programa que lea los precios de 5 artículos y las cantidades vendidas por una empresa en sus 4 sucursales. Informar:
+14. crear un programa que lea los precios de 5 artículos y las cantidades vendidas por una empresa en sus 4 sucursales. Informar:
 Las cantidades totales de cada artículo.
 La cantidad de artículos en la sucursal 2.
 La cantidad del artículo 3 en la sucursal 1.
